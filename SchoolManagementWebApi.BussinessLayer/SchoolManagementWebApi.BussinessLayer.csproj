@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolManagementWebApi.CustomExceptions\SchoolManagementWebApi.CustomExceptions.csproj" />
+    <ProjectReference Include="..\SchoolManagementWebApi.DataLayer\SchoolManagementWebApi.DataLayer.csproj" />
+    <ProjectReference Include="..\SchoolManagementWebApi.Entity\SchoolManagementWebApi.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
